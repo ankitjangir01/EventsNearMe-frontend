@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link{
+  color: white;
+}
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+  color: white;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(222, 0, 255, 0.66);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.homepage-carousel{
+  z-index: -1;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.dark-mask{
+  opacity: 0.4;
+  background-color: black;
+}
+
+.custom-btn{
+  background-color: rgb(151, 0, 151);
+}
