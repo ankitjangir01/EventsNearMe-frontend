@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import Carousel from 'react-bootstrap/Carousel';
 import SearchBar from './SearchBar';
+import PopularEvents from './PopularEvents';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -33,6 +35,8 @@ const Home = () => {
                 </Carousel>
             </div>
             <SearchBar />
+            <PopularEvents />
+            <Footer />
         </div>
     )
 }
