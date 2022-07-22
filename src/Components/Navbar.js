@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light ">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
                     <Link className="navbar-brand" to="/">EventsNearMe</Link>
                     <button className="navbar-toggler" type="button" data-mdb-toggle="collapse"

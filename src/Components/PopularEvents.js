@@ -15,17 +15,15 @@ const PopularEvents = () => {
         fetchAllEvents();
     }, [])
 
-    
+
     return (
-        <div>
-            <div className='container my-3 row'>
-                <h2>Popular Events</h2>
-                {
-                    events.map((event) => {
-                        return <Event key={event._id} event={event} />
-                    })
-                }
-            </div>
+        <div className='my-3 row w-100 justify-content-center'>
+            <h2>Popular Events</h2>
+            {
+                events.map((event) => {
+                    return <Event key={event._id} event={event} />
+                })
+            }
         </div>
     )
 }
