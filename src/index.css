@@ -73,22 +73,24 @@ code {
   background-color: #00334e;
 }
 
-.main-background {
-  /* overflow: hidden; */
-  width: 100%;
+.add-event-page{
+  background: url('https://res.cloudinary.com/eventsnearme/image/upload/v1658573859/website%20photos/Honeyview_AdobeStock_353574927_xsxmip.jpg') fixed;
+}
+
+/* .main-background {
   z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.4;
-}
+} */
 
 .add-event-form {
   background-color: rgb(255, 200, 255);
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  opacity: 98%;
 }
 
 .event-card {

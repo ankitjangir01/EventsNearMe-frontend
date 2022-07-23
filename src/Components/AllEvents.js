@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Event from './Event';
 import { useState } from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const AllEvents = () => {
     const [events, setEvents] = useState([]);
@@ -20,8 +21,8 @@ const AllEvents = () => {
     return (
         <div>
             <Navbar />
-            <div className="container">
-                    <h2>Popular Events</h2>
+            <div className="container my-4">
+                    <h2>All Events Near You</h2>
                 <div className='container my-3 row'>
                     {
                         events.map((event) => {
@@ -30,6 +31,7 @@ const AllEvents = () => {
                     }
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

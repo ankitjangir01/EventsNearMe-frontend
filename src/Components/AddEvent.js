@@ -24,45 +24,48 @@ const AddEvent = () => {
   }
 
   return (
-    <div >
+    <div>
       <Navbar />
-      <img className='main-background' src='https://res.cloudinary.com/eventsnearme/image/upload/v1657896991/website%20photos/balloons-2826093_1920_2_aefpuk.jpg' alt='...' />
-      <div className="container d-flex row vh-100 d-flex justify-content-center align-items-center add-event-form">
-        {/* <h3 className='mx-2 my-4'>Add new event</h3> */}
-        <form method='POST' action="http://localhost:5000/api/events/addevent" encType='multipart/form-data' className="form-control">
-          <label htmlFor="eventPoster">Upload event image/poster</label>
-          <input type="file" name='eventPoster' />
-          <input type="text" className="form-control mx-2 my-2" placeholder="event title" name='title' onChange={onChange} />
-          <textarea className='form-control mx-2 my-2' placeholder='event description' name='description' onChange={onChange} />
-          <input type="text" className="form-control mx-2 my-2" placeholder="address (landmark/area/colony)" name='address' onChange={onChange} />
-          <div className="row">
-            <div className="col">
-              <input type="text" className="form-control mx-2 my-2" placeholder="city" name='city' onChange={onChange} />
+      <div className="add-event-page d-flex justify-content-end">
+        <div className="w-40 add-event-form mx-4 my-4 bg-light">
+          <form className="form-control p-4" method='POST' action="http://localhost:5000/api/events/addevent" encType='multipart/form-data' >
+            <div className='form-control mr-2 mt-2 mb-4'>
+            <label htmlFor="eventPoster" className='text-muted'>Upload event image/poster<br/> </label>
+            <br/>
+            <br/>
+            <input type="file" name='eventPoster'/>
             </div>
-            <div className="col">
-              <input type="text" className="form-control mx-2 my-2" placeholder="district" name='district' onChange={onChange} />
+            <input type="text" className="form-control mr-2 my-2" placeholder="event title" name='title' onChange={onChange} />
+            <textarea className='form-control mr-2 my-4' placeholder='event description' name='description' onChange={onChange} />
+            <input type="text" className="form-control mr-2 my-2" placeholder="address (landmark/area/colony)" name='address' onChange={onChange} />
+            <div className="row">
+              <div className="col">
+                <input type="text" className="form-control mr-2 my-2" placeholder="city" name='city' onChange={onChange} />
+              </div>
+              <div className="col">
+                <input type="text" className="form-control mr-2 my-2" placeholder="district" name='district' onChange={onChange} />
+              </div>
             </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <input type="text" className="form-control mx-2 my-2" placeholder="state" name='state' onChange={onChange} />
+            <div className="row">
+              <div className="col">
+                <input type="text" className="form-control mr-2 my-2" placeholder="state" name='state' onChange={onChange} />
+              </div>
+              <div className="col">
+                <input type="text" className="form-control mr-2 my-2" placeholder="country" name='country' onChange={onChange} />
+              </div>
             </div>
-            <div className="col">
-              <input type="text" className="form-control mx-2 my-2" placeholder="country" name='country' onChange={onChange} />
+            <div className="row">
+              <div className="col">
+                <input type="text" className="form-control mr-2 my-2" placeholder="number of days/ duration" name='days' onChange={onChange} />
+              </div>
+              <div className="col">
+                <input type="text" className="form-control mr-2 my-2" placeholder="date of event" name='date' onChange={onChange} />
+              </div>
+              <button type="submit" className="btn btn-secondary custom-btn btn-block mt-4">Add</button>
             </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <input type="text" className="form-control mx-2 my-2" placeholder="number of days/ duration" name='days' onChange={onChange} />
-            </div>
-            <div className="col">
-              <input type="text" className="form-control mx-2 my-2" placeholder="date of event" name='date' onChange={onChange} />
-            </div>
-            <button type="submit" className="btn btn-primary custom-btn btn-block mx-2 w-100">Add</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-
       <Footer />
     </div>
   )
