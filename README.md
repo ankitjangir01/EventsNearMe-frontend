@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# EventsNearMe
+EventsNearMe is helping hand for you to find events in your locality, city or elsewhere. These events include cultural, sports, entertainment, seminars, workshops, dj nights, live performances and more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+EventsNearMe offers you world class experience with the following features-
+- Search the locality to find all events there
+- Find popular events across the country
+- Listing of your own event
 
-## Available Scripts
+## Technologies used
+![React.js](https://res.cloudinary.com/eventsnearme/image/upload/v1658581969/Technologies%20used/Honeyview_react-1-logo-png-transparent_uex3t1.jpg "React.js")
+![Node.js](https://res.cloudinary.com/eventsnearme/image/upload/v1658582337/Technologies%20used/Honeyview_nodejs-development-services_koawek.jpg "Node.js")
+![Express.js](https://res.cloudinary.com/eventsnearme/image/upload/v1658582542/Technologies%20used/Honeyview_express_g4otud.jpg "Express.js")
+![JavaScript](https://res.cloudinary.com/eventsnearme/image/upload/v1658582628/Technologies%20used/Honeyview_Unofficial_JavaScript_logo_2.svg_kklecy.jpg "JavaScript")
+![Html5](https://res.cloudinary.com/eventsnearme/image/upload/v1658582707/Technologies%20used/Honeyview_640px-HTML5_logo_and_wordmark.svg_symlsv.jpg "Html5")
+![CSS3](https://res.cloudinary.com/eventsnearme/image/upload/v1658583101/Technologies%20used/Honeyview_919826_zhozlx.jpg "CSS3")
+![MongoDB](https://res.cloudinary.com/eventsnearme/image/upload/v1658583204/Technologies%20used/Honeyview_erkxwhl1gd48xfhe2yld_uqd4i9.jpg "MongoDB")
+![Git](https://res.cloudinary.com/eventsnearme/image/upload/v1658583543/Technologies%20used/Honeyview_Git-Icon-1788C_lyrxtv.jpg "Git")
+![Bootstrap](https://res.cloudinary.com/eventsnearme/image/upload/v1658584534/Technologies%20used/Honeyview_bootstrap-logo_fpfmhn.jpg "Bootstrap")
 
-In the project directory, you can run:
+## Services used
+![Cloudinary](https://res.cloudinary.com/eventsnearme/image/upload/v1658583397/Technologies%20used/Honeyview_cloudinary_web_favicon_zcugzm.jpg "Clodinary")
+![MongoDB](https://res.cloudinary.com/eventsnearme/image/upload/v1658583204/Technologies%20used/Honeyview_erkxwhl1gd48xfhe2yld_uqd4i9.jpg "MongoDB")
+![GitHub](https://res.cloudinary.com/eventsnearme/image/upload/v1658583662/Technologies%20used/Honeyview_25231_irxbjl.jpg "GitHub")
+![FontAwesome](https://res.cloudinary.com/eventsnearme/image/upload/v1658583783/Technologies%20used/Honeyview_1200px-Font_Awesome_logomark_blue.svg_xw8dou.jpg "FontAwesome")
+![RapidAPI](https://res.cloudinary.com/eventsnearme/image/upload/v1658667778/Technologies%20used/Honeyview_reuntzuy6gy8ssnbktye_udlv8a.jpg "RapidAPI")
+![Autocomplete India](https://res.cloudinary.com/eventsnearme/image/upload/v1658667777/Technologies%20used/Honeyview_images_sa8pcr.jpg "Autocomplete India API")
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Software used
+![VS Code](https://res.cloudinary.com/eventsnearme/image/upload/v1658583899/Technologies%20used/Honeyview_opengraph-blog_qinga7.jpg "VS Code")
+![Photoshop](https://res.cloudinary.com/eventsnearme/image/upload/v1658584213/Technologies%20used/Honeyview_Adobe-Photoshop-Logo_dfwh4c.jpg "Photoshop")
