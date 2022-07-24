@@ -23,7 +23,9 @@ EventsNearMe offers you world class experience with the following features-
 ![MongoDB](https://res.cloudinary.com/eventsnearme/image/upload/v1658583204/Technologies%20used/Honeyview_erkxwhl1gd48xfhe2yld_uqd4i9.jpg "MongoDB")
 ![GitHub](https://res.cloudinary.com/eventsnearme/image/upload/v1658583662/Technologies%20used/Honeyview_25231_irxbjl.jpg "GitHub")
 ![FontAwesome](https://res.cloudinary.com/eventsnearme/image/upload/v1658583783/Technologies%20used/Honeyview_1200px-Font_Awesome_logomark_blue.svg_xw8dou.jpg "FontAwesome")
+![RapidAPI](https://res.cloudinary.com/eventsnearme/image/upload/v1658667778/Technologies%20used/Honeyview_reuntzuy6gy8ssnbktye_udlv8a.jpg "RapidAPI")
+![Autocomplete India](https://res.cloudinary.com/eventsnearme/image/upload/v1658667777/Technologies%20used/Honeyview_images_sa8pcr.jpg "Autocomplete India API")
 
-## Softwares used
+## Software used
 ![VS Code](https://res.cloudinary.com/eventsnearme/image/upload/v1658583899/Technologies%20used/Honeyview_opengraph-blog_qinga7.jpg "VS Code")
 ![Photoshop](https://res.cloudinary.com/eventsnearme/image/upload/v1658584213/Technologies%20used/Honeyview_Adobe-Photoshop-Logo_dfwh4c.jpg "Photoshop")
