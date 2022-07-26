@@ -3,6 +3,7 @@ import Home from './Components/Home';
 import { Routes, Route} from 'react-router-dom';
 import AddEvent from './Components/AddEvent';
 import AllEvents from './Components/AllEvents';
+import SearchResults from './Components/SearchResults';
 
 function App() {
   return (

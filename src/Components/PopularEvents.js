@@ -19,6 +19,7 @@ const PopularEvents = () => {
     return (
         <div className='my-3 row w-100 justify-content-center'>
             <h2>Popular Events</h2>
+            <hr/>
             {
                 events.map((event) => {
                     return <Event key={event._id} event={event} />
