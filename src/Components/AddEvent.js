@@ -3,21 +3,9 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import { useState } from 'react';
 import FormFieldSuggestions from './FormFieldSuggestions';
+import { toast } from 'react-toastify';
 
 const AddEvent = () => {
-  //event state to record the form input
-  // const [event, setEvent] = useState({
-  //   title: "",
-  //   description: "",
-  //   address: "",
-  //   city: "",
-  //   state: "",
-  //   PIN: 0,
-  //   country: "",
-  //   days: 0,
-  //   date: ""
-  // });
-
   //focus state to find which element is currently in focus
   const [focus, setFocus] = useState(null);
 
@@ -34,8 +22,10 @@ const AddEvent = () => {
         'X-RapidAPI-Host': 'autocomplete-india.p.rapidapi.com'
       }
     });
-    let json = await res.json();
-    setCityData(json.Result);
+  }
+
+  const onSubmit = () => {
+    toast.success("Event Listed !", {autoClose: 1500})
   }
 
   const onFocus = (eve) => {
@@ -52,7 +42,7 @@ const AddEvent = () => {
       <Navbar />
       <div className="add-event-page d-flex justify-content-end">
         <div className="w-40 add-event-form mx-4 my-4 bg-light">
-          <form className="form-control p-4" method='POST' action="http://localhost:5000/api/events/addevent" encType='multipart/form-data' >
+          <form className="form-control p-4" method='POST' action="http://localhost:5000/api/events/addevent"  onSubmit={onSubmit} encType='multipart/form-data' >
             <div className='form-control mr-2 mt-2 mb-4'>
               <label htmlFor="eventPoster" className='text-muted'>Upload event image/poster<br /> </label>
               <br />
